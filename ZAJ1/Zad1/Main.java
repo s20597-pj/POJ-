@@ -1,4 +1,4 @@
-package Flags;
+package Zad1;
 
 import java.util.Scanner;
 
