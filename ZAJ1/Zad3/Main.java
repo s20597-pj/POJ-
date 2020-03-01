@@ -1,7 +1,10 @@
 package Zad3;
 
 import java.util.Scanner;
-
+/*
+Summary: BMR Calculator
+Author: Mateusz Hinca
+ */
 public class Main {
     public static Scanner scanner = new Scanner(System.in);
 
