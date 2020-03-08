@@ -1,3 +1,13 @@
+/*
+Summary: Power of thor
+Author: Mateusz Hinca
+ */
+
+//THE GOAL
+//Your program must allow Thor to reach the light of power.
+
+
+//CODE TO PASS ALL TESTS
 import java.util.*;
 import java.io.*;
 import java.math.*;
@@ -16,6 +26,7 @@ class Player {
         int lightY = in.nextInt(); // the Y position of the light of power
         int initialTx = in.nextInt(); // Thor's starting X position
         int initialTy = in.nextInt(); // Thor's starting Y position
+        
         int currentTx = initialTx;
         int currentTy=initialTy;
         // game loop
