@@ -13,7 +13,6 @@ public class Rectangle{
         this.length=length;
         this.width=width;
     }
-
     public double calcField(){
         return length*width;
     }
