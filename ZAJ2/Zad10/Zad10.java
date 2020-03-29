@@ -1,6 +1,5 @@
-import java.util.*;
-import java.io.*;
-import java.math.*;
+import java.util.Arrays;
+import java.util.Scanner;
 
 /*
 Summary: The Gift

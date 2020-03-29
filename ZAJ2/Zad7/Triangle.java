@@ -8,9 +8,9 @@ package Zad7;
 public class Triangle {
     private double baseOfTriangle;
     private double side1;
-    private double side2
+    private double side2;
 
-    public Rectangle(double baseOfTriangle, double side1, double side2) {
+    public Triangle(double baseOfTriangle, double side1, double side2) {
         this.baseOfTriangle = baseOfTriangle;
         this.side1 = side1;
         this.side2 = side2;
@@ -18,7 +18,7 @@ public class Triangle {
 
     public double calcField() {
         double halfOfCircuit = calcCircuit() / 2;
-        return Math.sqrt(halfOfCircuit * (halfOfCircuit - baseOfTriangle) * (halfOfCircuit - side1) * (halfOfCircuit - side2))
+        return Math.sqrt(halfOfCircuit * (halfOfCircuit - baseOfTriangle) * (halfOfCircuit - side1) * (halfOfCircuit - side2));
     }
 
     public double calcCircuit() {

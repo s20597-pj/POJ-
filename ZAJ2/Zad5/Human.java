@@ -1,4 +1,5 @@
 package Zad5;
+
 /**
  * summary: Human class
  * author: Mateusz Hinca
@@ -39,7 +40,7 @@ public class Human {
     }
 
     public boolean isMale() {
-        return gender=="male"?true:false;
+        return gender == "male" ? true : false;
     }
 
     public float getFeetSize() {
