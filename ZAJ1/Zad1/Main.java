@@ -44,13 +44,13 @@ public class Main {
 
     public static void PrintJapanFlag(int flagSize) {
         PrintFlagBorderTop(flagSize);
-        int width = flagSize/2;
+        int width = flagSize / 2;
         int length = (int) (width * 3);
         int y = width;
-        while (y >= - width) {
+        while (y >= -width) {
             System.out.println();
-            for(int x = -length;x<=length;x++){
-                if((Math.sqrt(x*x + y*y)) >= width-1){
+            for (int x = -length; x <= length; x++) {
+                if ((Math.sqrt(x * x + y * y)) >= width - 1) {
                     System.out.print(" ");
                 } else {
                     System.out.print("*");
